@@ -1,0 +1,149 @@
+
+body{
+
+    background-repeat: no-repeat;
+    }
+    
+    .purple{
+        background-image: linear-gradient(to top right ,rgba(175, 82, 222, 1),transparent);
+        position: absolute;
+        top: 5rem;
+        left: 0px;
+        width: 49vw;
+        height: 90vh;
+        filter: blur(100px);
+        z-index: -1;;
+    }
+    .pink{
+        background-image: linear-gradient(to top left ,rgba(255, 55, 95, 1),transparent);
+        position: absolute;
+        top: 5rem;
+        right: 0px;
+        width: 50vw;
+        height: 90vh;
+        filter: blur(100px);
+        z-index: -1;
+    }
+    .navbar{
+        display: flex;
+        width: 100%;
+        max-width: 200rem;
+        margin-top: 25px;
+        justify-content: space-evenly;
+      
+      
+    }
+    .navbar button{
+        width: 100%;
+        max-width: 140px;
+       
+        height: 2rem;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        margin-top: .5rem;
+        margin-left: 2rem;
+    }
+    .sitelogo{
+        
+        margin-top: 4px;
+        width: 100%;
+        max-width: 116px;
+        height: 100%;
+        max-height: 26px;
+        
+    }
+    .nav-items{
+        display: flex;
+    }
+    .nav-items ul{
+        display: flex;
+       
+        
+    }
+    .nav-items ul li{
+        list-style: none;
+        margin-left: 2rem;
+        font-size: 16px;
+        font-style:normal;
+    }
+    .hero{
+        display: flex;
+        flex: 1;
+        margin-top: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        
+        
+    }
+    .hero-left{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+       width: 48vw;
+       
+    
+    }
+    .hero-left .left-g{
+        width: 2rem;
+        border-radius: 50%;
+        background: radial-gradient(at left bottom,rgb(179, 54, 179),rgb(226, 191, 217));
+    }
+    .hero-left h1{
+        font-size: 62px;
+        font-style: bold;
+    }
+    .hero-left p{
+        font-size: 16px;
+        font-style: normal;
+    }
+    .hero-left button{
+        width: 100%;
+        max-width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background:linear-gradient( to right,rgb(163, 253, 222),rgb(252, 244, 154));
+    }
+    .hero-right{
+        
+        flex: 1;
+        margin-left: 2rem;
+        position: relative;
+        
+        background-repeat: no-repeat;
+    }
+    .hero-right>img{
+        position: absolute;
+        height: 25rem;
+        width: 24rem;
+    }
+       
+    .hero-right .rightpart img{
+       width: 26rem;
+       height: 20rem;
+       rotate: -.05deg;
+       position: relative;
+       left: -.3rem;
+       top: 1rem;
+      
+       
+        
+    }
+    
+    
+    @media screen and(max-width:770px){
+    .hero-right img{
+        width: 10vw;
+    }
+    .hero-right{
+        background-size: 100%;
+        width: 27rem;
+        height: 21rem;
+    }
+    .nav-items ul li{
+        margin-left: 2vw;
+    }
+    }
